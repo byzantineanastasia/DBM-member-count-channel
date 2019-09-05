@@ -1,0 +1,24 @@
+{
+  "name": "updateMC",
+  "permissions": "MANAGE_CHANNELS",
+  "restriction": "1",
+  "_id": "TbCkc",
+  "actions": [
+    {
+      "server": "0",
+      "varName": "",
+      "info": "17",
+      "storage": "1",
+      "varName2": "new mc",
+      "name": "Store Server Info"
+    },
+    {
+      "storage": "4",
+      "varName": "mc channel",
+      "channelType": "0",
+      "toChange": "0",
+      "newState": "member count: ${tempVars(\"new mc\")}",
+      "name": "Edit Channel"
+    }
+  ]
+}
